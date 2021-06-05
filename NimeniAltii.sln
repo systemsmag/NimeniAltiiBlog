@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NimeniAltii.Web", "NimeniAl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NimeniAltii.Models", "NimeniAltii.Models\NimeniAltii.Models.csproj", "{35A17FA8-17CE-42AC-A3F3-BADB194E1E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NimeniAltiiLab.R", "NimeniAltiiLab.R\NimeniAltiiLab.R.csproj", "{5EF1F2B3-F7AB-48D0-85AC-D0212894D2DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NimeniAltiiLab.Repository", "NimeniAltiiLab.R\NimeniAltiiLab.Repository.csproj", "{5EF1F2B3-F7AB-48D0-85AC-D0212894D2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Identity", "BlogLab.Identity\BlogLab.Identity.csproj", "{6CB13BBA-AB10-415A-A22C-8E2E2F8D0578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5EF1F2B3-F7AB-48D0-85AC-D0212894D2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF1F2B3-F7AB-48D0-85AC-D0212894D2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF1F2B3-F7AB-48D0-85AC-D0212894D2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB13BBA-AB10-415A-A22C-8E2E2F8D0578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB13BBA-AB10-415A-A22C-8E2E2F8D0578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB13BBA-AB10-415A-A22C-8E2E2F8D0578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB13BBA-AB10-415A-A22C-8E2E2F8D0578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
