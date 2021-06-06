@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9dYM4UcyJ5VzbKtHqIAzXScXmI2AUaFN6g5+3xnQdR0ObSvCPyc324Zgb0xdyWrX8mTDfXFVqAIMwjk2tovSMQ==",
+  "dgSpecHash": "4Ou90+58oWQCJ7KD+/n7yQW4Zcf0KUdoLJ+lYLbHb77fMJuaoXPtpp97Ku2j8UxH/Qr/9RtaSPb80Ph5unkmHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gggsy\\Desktop\\NimeniAltii\\NimeniAltii.Web\\NimeniAltii.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gggsy\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\gggsy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\gggsy\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
