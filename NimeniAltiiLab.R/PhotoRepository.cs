@@ -65,7 +65,7 @@ namespace NimeniAltiiLab.Repository
             return photo;
         }
 
-        public async Task<Photo> InsertAsync(PhotoCreate photoCreate, int ApplicationUserId)
+        public async Task<Photo> InsertAsync(PhotoCreate photoCreate, int applicationUserId)
         {
             var dataTable = new DataTable();
             dataTable.Columns.Add("PublicId", typeof(string));
@@ -80,7 +80,13 @@ namespace NimeniAltiiLab.Repository
             {
                 await connection.OpenAsync();
 
-                newPhotoId = await connection.ExecuteScalarAsync<int>("Photo_Insert", new { Photo = dataTable.AsTableValuedParameter("dbo.PhotoType") }, commandType: CommandType.StoredProcedure);
+                newPhotoId = await connection.ExecuteScalarAsync<int>(
+                    "Photo_Insert",
+                    new {
+                        Photo = dataTable.AsTableValuedParameter("dbo.PhotoType"),
+                        ApplicationUserId = applicationUserId
+                    }, 
+                    commandType: CommandType.StoredProcedure);
 
             }
 
