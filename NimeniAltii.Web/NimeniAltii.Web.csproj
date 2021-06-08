@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogLab.Identity\BlogLab.Identity.csproj" />
+    <ProjectReference Include="..\BlogLab.Services\BlogLab.Services.csproj" />
+    <ProjectReference Include="..\NimeniAltii.Models\NimeniAltii.Models.csproj" />
+    <ProjectReference Include="..\NimeniAltiiLab.R\NimeniAltiiLab.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
